@@ -65,6 +65,6 @@ a:hover > svg {
 }
 
 a:hover {
-    background-color: white;
+    background-color: red;
     color:#4d4a4a;
 }
