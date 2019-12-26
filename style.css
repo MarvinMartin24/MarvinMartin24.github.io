@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Akzidenz-grotesk-roman';
+    src: url('font/Akzidenz-grotesk-roman.ttf')
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #cbb6fc;
+}
+
+.wrapper {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 150px;
+}
+
+.links {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 30px;
+}
+
+h2 {
+    color: white;
+    font-size: 4.5em;
+    font-family: 'Akzidenz-grotesk-roman';
+}
+
+p {
+    color: white;
+    font-size: 2.25em;
+    font-family: 'Akzidenz-grotesk-roman';
+}
+
+a {
+    border-radius: 4px;
+    border: 1.5px solid white;
+    background-color: Transparent;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: 'Akzidenz-grotesk-roman';
+}
+
+
+a:hover {
+    background-color: white;
+    color: #cbb6fc;
+}
