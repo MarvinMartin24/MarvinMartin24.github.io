@@ -7,7 +7,7 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background-color: #353638;
+    background-color:#4d4a4a;
 }
 
 .wrapper {
@@ -61,10 +61,10 @@ a > svg, a > span {
 }
 
 a:hover > svg {
-    fill: #fa6666;
+    fill:#4d4a4a;
 }
 
 a:hover {
     background-color: white;
-    color: #fa6666;
+    color:#4d4a4a;
 }
